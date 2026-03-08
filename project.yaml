@@ -1,0 +1,7 @@
+apiVersion: openchoreo.dev/v1alpha1
+kind: Project
+metadata:
+  name: simple-todo-app
+  namespace: default
+spec:
+  deploymentPipelineRef: default

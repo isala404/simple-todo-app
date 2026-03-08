@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "openchoreo-developer": {
+      "source": "/Users/isala/Projects/openchoreo/docs/skills/openchoreo-developer",
+      "sourceType": "local",
+      "computedHash": "228aebb4a29df561d0615997b77c37c98880fe48e39893bdd168c0e8fa39f2ea"
+    }
+  }
+}

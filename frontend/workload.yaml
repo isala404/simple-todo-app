@@ -1,0 +1,19 @@
+apiVersion: openchoreo.dev/v1alpha1
+
+metadata:
+  name: todo-frontend
+
+endpoints:
+  - name: web
+    port: 8080
+    type: REST
+    visibility:
+      - external
+
+connections:
+  - component: todo-backend
+    endpoint: api
+    visibility: project
+    envBindings:
+      host: BACKEND_HOST
+      port: BACKEND_PORT
